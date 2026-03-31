@@ -15,6 +15,17 @@ Net Revenue = Total Sales − Payment Fees
 - SQL
 - pandas (via DataCamp DataLab)
 
+## Skills Used
+- SQL aggregation (SUM)
+- Date extraction and transformation
+- Data grouping and sorting
+- Revenue metric calculation
+
+## Key Insights
+- Certain product lines consistently generate higher net revenue across months.
+- Warehouse-level analysis allows identification of top-performing locations
+  within each product line.
+
 ## Query
 ```sql
 SELECT
