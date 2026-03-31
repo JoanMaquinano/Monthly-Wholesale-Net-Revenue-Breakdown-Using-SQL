@@ -15,4 +15,18 @@ Net Revenue = Total Sales − Payment Fees
 
 ## Query
 ```sql
--- SQL query here
+SELECT
+    product_line,
+    TO_CHAR(order_date, 'Month') AS month,
+    warehouse,
+    SUM(total) - SUM(payment_fee) AS net_revenue
+FROM sales
+WHERE TO_CHAR(order_date, 'Month') IN ('June', 'July', 'August')
+GROUP BY
+    product_line,
+    month,
+    warehouse
+ORDER BY
+    product_line,
+    month,
+    net_revenue DESC;
