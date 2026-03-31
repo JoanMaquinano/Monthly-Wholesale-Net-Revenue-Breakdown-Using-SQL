@@ -1,4 +1,5 @@
-<img width="956" height="560" alt="image" src="https://github.com/user-attachments/assets/e3df5733-3542-4d86-a410-8c27c9502a63" /># Monthly Wholesale Net Revenue Analysis
+
+## Monthly Wholesale Net Revenue Analysis
 
 ## Overview
 This project analyzes wholesale sales data to calculate monthly net revenue by
@@ -45,3 +46,4 @@ ORDER BY
     net_revenue DESC;
 
 <img width="956" height="560" alt="image" src="https://github.com/user-attachments/assets/23daa9e9-1558-4582-a5da-38dc3382c9ff" />
+<img width="956" height="560" alt="image" src="https://github.com/user-attachments/assets/e3df5733-3542-4d86-a410-8c27c9502a63" />
