@@ -1,7 +1,9 @@
 # Monthly Wholesale Net Revenue Analysis
 
 ## Overview
-This project analyzes wholesale net revenue by product line, warehouse, and month using SQL.
+This project analyzes wholesale sales data to calculate monthly net revenue by
+product line and warehouse. The goal is to provide stakeholders with insight into
+which products and warehouses contribute the most net revenue over time.
 
 ## Business Question
 How much net revenue did each product line generate per month per warehouse?
